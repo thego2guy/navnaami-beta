@@ -1,0 +1,34 @@
+.slider > .dragger {
+  background: #fab142;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 100%;
+  border: 1px solid #fab142;
+  width: 24px;
+  height: 24px;
+}
+
+.slider > .dragger:hover {
+  background: #f8ac00;
+}
+
+
+.slider > .track, .slider > .highlight-track {
+  background: #382715;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+  border: 1px solid #382715;
+  height: 4px;
+}
+
+.slider > .highlight-track {
+	background-color: #fab142;
+	background: -webkit-linear-gradient(top, #8DCA09, #72A307);
+	background: -moz-linear-gradient(top, #8DCA09, #72A307);
+	background: linear-gradient(top, #8DCA09, #72A307);
+	
+	border-color: #496805;
+}
+
